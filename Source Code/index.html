@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisis Stock Span: Stack vs Rekursif</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Analisis Perbandingan Algoritma Stock Span Problem dalam
+Menentukan Momentum Tren Pasar Saham: Pendekatan Iteratif
+Berbasis Stack vs Rekursif
+</h1>
+            <p>Tugas Besar Analisis Kompleksitas Algoritma</p>
+            <p class="subtitle">Oleh: Farabi, Naufal, Rafif</p>
+        </header>
+
+        <section class="controls">
+            <div class="input-group">
+                <label>Pilih Skenario Data:</label>
+                <select id="dataType">
+                    <option value="random">Random Case (Acak)</option>
+                    <option value="ascending">Worst Case (Ascending/Menaik)</option>
+                </select>
+            </div>
+            
+            <button onclick="runExperiment()" class="btn-primary">Jalankan Pengujian & Buat Grafik</button>
+        </section>
+
+        <section class="results">
+            <div class="chart-container">
+                <canvas id="timeChart"></canvas>
+            </div>
+            
+            <div class="logs">
+                <h3>Log Hasil Eksekusi (ms)</h3>
+                <table id="resultTable">
+                    <thead>
+                        <tr>
+                            <th>Ukuran Input (N)</th>
+                            <th>Rekursif (Naive)</th>
+                            <th>Iteratif (Stack)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
