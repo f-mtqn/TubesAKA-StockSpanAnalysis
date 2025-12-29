@@ -35,8 +35,5 @@ Berdasarkan pengujian empiris:
 * HTML5, CSS3, JavaScript (ES6)
 * **Chart.js** untuk visualisasi grafik data.
 
-## 📂 Dokumen Lengkap
-Untuk analisis mendalam, silakan baca laporan lengkap kami di folder `documents/`.
-
 ---
 © 2025 Telkom University
